@@ -4,9 +4,6 @@ const CampoTexto = (props) => {
 
     const placeholderModificada = `${props.placeholder}...`
 
-    //let valor = ''
-
-    //const [valor, setValor] = useState('')
     const aoDigitado = (evento) => {
         props.aoAlterado(evento.target.value)
     }
