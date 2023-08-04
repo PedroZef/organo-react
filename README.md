@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## Projeto de Estudo Alura + Oracle Next Education One - Turma5
+## Projeto de Estudo Alura + Oracle Next Education One - Turma5 com Paulo Silveira | Marcos Vinicios da Silva Neves
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
