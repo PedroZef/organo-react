@@ -8,27 +8,27 @@ const Rodape = () => {
             <ul>
                 <li>
                     <a href="facebook.com" target="_blank">
-                        <img src="/imagens/facebook.png" alt="" />
+                        <img src="/imgs/facebook.png" alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="twitter.com" target="_blank">
-                        <img src="/imagens/twitter.png" alt="" />
+                        <img src="/imgs/twitter.png" alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="instagram.com" target="_blank">
-                        <img src="/imagens/instagram.png" alt="" />
+                        <img src="/imgs/instagram.png" alt="" />
                     </a>
                 </li>
             </ul>
         </section>
         <section>
-            <img src="/imagens/logo.png" alt="" />
+            <img src="/imgs/logo.png" alt="" />
         </section>
         <section>
             <p>
-                Desenvolvido por Alura.
+                Desenvolvido por Alura  &copy; Pedro Zeferino Da Silva.
             </p>
         </section>
     </footer>)
