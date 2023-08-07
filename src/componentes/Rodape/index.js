@@ -10,7 +10,7 @@ const Rodape = () => {
                     <a href="https://github.com/PedroZef" target='blank'>🐱</a>
                 </li>
                 <li>
-                    <a href="facebook.com/pedrozeferinodasilva" target="blank">
+                    <a href="https://www.facebook.com/pedro.zeferinodasilva" target="blank">
                         <img src="./imgs/fb.png" alt="Facebook" />
                     </a>
                 </li>
@@ -18,7 +18,7 @@ const Rodape = () => {
                     <a href="https://instagram.com/pedrozeferinodasilva" target="blank">🎥</a>
                 </li>
                 <li>
-                    <a href="twitter.com/pedrozeferino" target="blank">
+                    <a href="https://twitter.com/PedroZeferinod6" target="blank">
                         <img src="/imgs/tw.png" alt="Twitter" />
                     </a>
                 </li>
