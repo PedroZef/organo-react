@@ -11,8 +11,7 @@ export const Banner = () => {
         <img src="imgs/banner.png" alt="O banner principal da página do Organo" />
 
       </header>
-      <teste />
-
+      
     </>
 
 
