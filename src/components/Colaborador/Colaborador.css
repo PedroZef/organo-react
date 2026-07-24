@@ -1,0 +1,81 @@
+.colaborador {
+    width: 280px;
+    position: relative;
+    margin-bottom: 24px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.colaborador:hover {
+    transform: translateY(-4px);
+}
+
+.colaborador .deletar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 1;
+    color: #e06b69;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 2;
+}
+
+.colaborador .deletar:hover {
+    background: #e06b69;
+    color: #ffffff;
+    transform: scale(1.15);
+}
+
+.colaborador .cabecalho {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}
+
+.colaborador img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    bottom: -55px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.colaborador .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 70px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.colaborador .rodape h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    padding: 0 12px;
+}
+
+.colaborador .rodape h5 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #212121;
+    padding: 0 16px;
+    margin: 0;
+    font-weight: 400;
+}

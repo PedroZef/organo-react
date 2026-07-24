@@ -1,0 +1,76 @@
+.footer {
+    background: #6278F7 url('/imgs/fundo.png') no-repeat center / cover;
+    color: #FFFFFF;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px; /* icons grouped close to each other according to modern standards */
+}
+
+.footer-social a {
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.15);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+}
+
+.footer-social a:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: translateY(-2px);
+    color: #95FFD4;
+}
+
+.footer-credits p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.95);
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 16px;
+    }
+}
+
